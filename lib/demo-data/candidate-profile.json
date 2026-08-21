@@ -1,0 +1,81 @@
+{
+  "id": "demo-profile-alex-berger",
+  "dataClassification": "FICTIONAL_DEMO_DATA",
+  "isFictional": true,
+  "name": "Alex Berger",
+  "headline": "Business Analysis und digitale Projektkoordination",
+  "summary": "Fiktives Profil mit Erfahrung an der Schnittstelle zwischen Fachbereichen und IT. Alex strukturiert Anforderungen, analysiert Prozesse und koordiniert kleinere Digitalisierungsprojekte.",
+  "targetRoles": [
+    "Business Analyst",
+    "Junior IT-Projektmanager",
+    "Digitalisierungsmanager",
+    "Requirements Engineer"
+  ],
+  "preferredWorkModels": ["HYBRID", "REMOTE"],
+  "skills": [
+    { "name": "Anforderungsanalyse", "level": "ADVANCED", "evidenceId": "evidence-1" },
+    { "name": "Stakeholder-Management", "level": "ADVANCED", "evidenceId": "evidence-1" },
+    { "name": "Prozessanalyse", "level": "ADVANCED", "evidenceId": "evidence-2" },
+    { "name": "Workshop-Moderation", "level": "INTERMEDIATE", "evidenceId": "evidence-1" },
+    { "name": "Projektkoordination", "level": "INTERMEDIATE", "evidenceId": "evidence-3" },
+    { "name": "BPMN", "level": "INTERMEDIATE", "evidenceId": "evidence-2" },
+    { "name": "Agile Arbeitsweisen", "level": "INTERMEDIATE", "evidenceId": "evidence-3" },
+    { "name": "Datenanalyse", "level": "BASIC", "evidenceId": "evidence-4" }
+  ],
+  "tools": ["Microsoft 365", "Miro", "Jira (Grundlagen)", "Power BI (Grundlagen)", "SQL (Grundlagen)"],
+  "experience": [
+    {
+      "id": "evidence-1",
+      "organization": "Dialogwerk Digital GmbH (fiktiv)",
+      "role": "Projektkoordinator Digitalisierung",
+      "period": "2 Jahre",
+      "evidence": "Moderation von Anforderungsworkshops, Abstimmung mit Fachbereichen und Dokumentation priorisierter Anforderungen für drei interne Digitalisierungsprojekte."
+    },
+    {
+      "id": "evidence-2",
+      "organization": "Prozesslabor Nord GmbH (fiktiv)",
+      "role": "Werkstudent Prozessmanagement",
+      "period": "1 Jahr",
+      "evidence": "Aufnahme von Ist-Prozessen, Modellierung ausgewählter Abläufe in BPMN und Vorbereitung von Verbesserungsvorschlägen."
+    },
+    {
+      "id": "evidence-3",
+      "organization": "Hochschule Zukunftsfeld (fiktiv)",
+      "role": "Praxisprojekt Digitaler Serviceprozess",
+      "period": "6 Monate",
+      "evidence": "Koordination eines fünfköpfigen Projektteams, Pflege des Aufgabenboards und Präsentation eines getesteten Lösungskonzepts."
+    },
+    {
+      "id": "evidence-4",
+      "organization": "Hochschule Zukunftsfeld (fiktiv)",
+      "role": "Analyseprojekt",
+      "period": "1 Semester",
+      "evidence": "Bereinigung eines fiktiven Datensatzes und Erstellung eines einfachen Power-BI-Dashboards mit Prozesskennzahlen."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hochschule Zukunftsfeld (fiktiv)",
+      "degree": "B.Sc. Wirtschaftsinformatik",
+      "focus": "Geschäftsprozessmanagement und digitale Transformation"
+    }
+  ],
+  "atsKeywords": [
+    "Business Analysis",
+    "Requirements Engineering",
+    "Anforderungsanalyse",
+    "Prozessanalyse",
+    "BPMN",
+    "Stakeholder-Management",
+    "Workshop-Moderation",
+    "Digitalisierung",
+    "IT-Projektkoordination",
+    "Agile Arbeitsweisen"
+  ],
+  "knownGaps": [
+    "Keine nachgewiesene disziplinarische Führung",
+    "Keine Verantwortung für Großbudgets",
+    "Keine produktive SAP-S/4HANA-Erfahrung",
+    "SQL und Power BI nur auf Grundlagen-Niveau"
+  ]
+}

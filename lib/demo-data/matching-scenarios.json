@@ -1,0 +1,141 @@
+[
+  {
+    "jobId": "demo-job-1",
+    "scenario": "VERY_GOOD_MATCH",
+    "totalScore": 92,
+    "confidence": 95,
+    "partialScores": {
+      "roleFit": 98,
+      "skills": 94,
+      "experience": 88,
+      "tools": 82,
+      "workModel": 100
+    },
+    "strengths": [
+      "Anforderungsworkshops sind durch Berufserfahrung belegt",
+      "BPMN und Prozessanalyse sind praktisch nachgewiesen",
+      "Erfahrung an der Schnittstelle zwischen Fachbereich und IT",
+      "Agile Projektarbeit und strukturierte Kommunikation passen zur Rolle"
+    ],
+    "gaps": ["SQL ist nur auf Grundlagen-Niveau belegt"],
+    "requirementAssessments": [
+      { "requirement": "Anforderungen in Workshops erheben und strukturieren", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Direkt durch moderierte Anforderungsworkshops belegt." },
+      { "requirement": "Geschäftsprozesse analysieren und in BPMN modellieren", "status": "FULFILLED", "evidenceIds": ["evidence-2"], "reason": "Ist-Prozessaufnahme und BPMN-Modellierung sind konkret dokumentiert." },
+      { "requirement": "Stakeholder aus Fachbereich und IT koordinieren", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Abstimmung mit Fachbereichen und IT gehörte zur Rolle." },
+      { "requirement": "Erste Erfahrung mit agilen Arbeitsweisen", "status": "FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Aufgabenboard und iterative Konzepttests sind belegt." },
+      { "requirement": "Grundkenntnisse in SQL", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-4"], "reason": "SQL wird als Grundlage genannt, aber nicht durch produktive Berufspraxis belegt." }
+    ],
+    "atsCoverage": { "matched": ["Business Analysis", "Anforderungsanalyse", "BPMN", "Stakeholder-Management", "Digitalisierung", "Agile Arbeitsweisen", "SQL"], "missing": [] },
+    "interviewPreparation": [
+      "Ein konkretes Beispiel für einen Anforderungsworkshop mit widersprüchlichen Interessen vorbereiten.",
+      "Erklären, wie aus einem Ist-Prozess ein priorisiertes Soll-Konzept entstand.",
+      "SQL-Grundlagen ehrlich einordnen und einen Lernplan nennen."
+    ]
+  },
+  {
+    "jobId": "demo-job-2",
+    "scenario": "GOOD_MATCH_WITH_GAPS",
+    "totalScore": 78,
+    "confidence": 91,
+    "partialScores": {
+      "roleFit": 88,
+      "skills": 82,
+      "experience": 68,
+      "tools": 61,
+      "workModel": 100
+    },
+    "strengths": [
+      "Projektkoordination und Stakeholder-Kommunikation sind belegt",
+      "Strukturierte Aufgabenverfolgung wurde praktisch eingesetzt",
+      "Erfahrung mit Ergebnispräsentationen und Statuskommunikation"
+    ],
+    "gaps": [
+      "Jira nur auf Grundlagen-Niveau",
+      "Keine nachgewiesene eigene Budgetverantwortung",
+      "Risikomanagement nur indirekt aus Projektkoordination ableitbar"
+    ],
+    "requirementAssessments": [
+      { "requirement": "Arbeitspakete, Termine und Risiken koordinieren", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Arbeitspakete wurden koordiniert; formales Risikomanagement ist nicht belegt." },
+      { "requirement": "Statusberichte für Projektleitung und Stakeholder erstellen", "status": "FULFILLED", "evidenceIds": ["evidence-1", "evidence-3"], "reason": "Dokumentation und Ergebnispräsentation sind belegt." },
+      { "requirement": "Sicherer Umgang mit Jira", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Aufgabenboards wurden genutzt, Jira jedoch nur als Grundlagenkenntnis genannt." },
+      { "requirement": "Erste Verantwortung für Projektbudgets", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Es liegt kein Beleg für eigene Budgetverantwortung vor." },
+      { "requirement": "Kommunikationsstärke und strukturierte Arbeitsweise", "status": "FULFILLED", "evidenceIds": ["evidence-1", "evidence-3"], "reason": "Workshop-Moderation, Koordination und Präsentation liefern konkrete Belege." }
+    ],
+    "atsCoverage": { "matched": ["IT-Projektmanagement", "Projektkoordination", "Status Reporting", "Jira"], "missing": ["Risikomanagement", "Budgetplanung"] },
+    "interviewPreparation": [
+      "Ein Beispiel für Terminverzug und die eigene Reaktion vorbereiten.",
+      "Den bisherigen Umgang mit Jira konkret beschreiben.",
+      "Budgetlücke offen benennen und übertragbare Controlling-Erfahrung abgrenzen."
+    ]
+  },
+  {
+    "jobId": "demo-job-3",
+    "scenario": "MEDIUM_MATCH",
+    "totalScore": 61,
+    "confidence": 88,
+    "partialScores": {
+      "roleFit": 74,
+      "skills": 58,
+      "experience": 46,
+      "tools": 42,
+      "workModel": 45
+    },
+    "strengths": [
+      "Grundlegende Anforderungserhebung ist vorhanden",
+      "Moderations- und Abstimmungsfähigkeit ist gut belegt",
+      "Wirtschaftsinformatik bietet eine fachlich-technische Grundlage"
+    ],
+    "gaps": [
+      "Keine Erfahrung mit UML oder formalen Spezifikationen",
+      "Kein Studium in Elektrotechnik oder Systems Engineering",
+      "Test- und Freigabemanagement nicht belegt",
+      "Vor-Ort-Modell entspricht nicht der Präferenz"
+    ],
+    "requirementAssessments": [
+      { "requirement": "Systemanforderungen erheben und spezifizieren", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Anforderungserhebung ist belegt, technische Systemspezifikation jedoch nicht." },
+      { "requirement": "Erfahrung mit UML und formalen Spezifikationen", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "UML und formale Spezifikationen werden im Profil nicht nachgewiesen." },
+      { "requirement": "Technisches Studium in Elektrotechnik oder Systems Engineering", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Der Abschluss in Wirtschaftsinformatik erfüllt die ausdrücklich genannten Fachrichtungen nicht." },
+      { "requirement": "Kenntnisse im Test- und Freigabemanagement", "status": "UNKNOWN", "evidenceIds": [], "reason": "Die vorhandenen Angaben erlauben keine belastbare Bewertung." },
+      { "requirement": "Sehr gute Moderations- und Abstimmungsfähigkeiten", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Mehrere moderierte Workshops und Stakeholder-Abstimmungen sind belegt." }
+    ],
+    "atsCoverage": { "matched": ["Requirements Engineering", "Spezifikation"], "missing": ["Systems Engineering", "UML", "Testmanagement", "Freigabemanagement"] },
+    "interviewPreparation": [
+      "Den Unterschied zwischen fachlichen und technischen Anforderungen erklären.",
+      "Keine UML-Erfahrung behaupten; stattdessen den Lerntransfer aus BPMN darstellen.",
+      "Nachfragen, wie hoch der Anteil formaler Systemspezifikation tatsächlich ist."
+    ]
+  },
+  {
+    "jobId": "demo-job-4",
+    "scenario": "CLEAR_MISMATCH",
+    "totalScore": 24,
+    "confidence": 96,
+    "partialScores": {
+      "roleFit": 32,
+      "skills": 20,
+      "experience": 8,
+      "tools": 5,
+      "workModel": 45
+    },
+    "strengths": ["Allgemeines Verständnis für Digitalisierungsprojekte und Stakeholder-Kommunikation"],
+    "gaps": [
+      "Acht Jahre Programmleitung fehlen",
+      "Keine SAP-S/4HANA-Erfahrung",
+      "Keine Verantwortung für Großbudgets",
+      "Keine disziplinarische Führung",
+      "Keine geforderte Programmmanagement-Zertifizierung"
+    ],
+    "requirementAssessments": [
+      { "requirement": "Mindestens acht Jahre Leitung komplexer IT-Programme", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Das Profil weist zwei Jahre Projektkoordination, aber keine Programmleitung aus." },
+      { "requirement": "Mehrjährige produktive SAP-S/4HANA-Erfahrung", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "SAP S/4HANA ist nicht Bestandteil des Profils." },
+      { "requirement": "Verantwortung für Budgets im mehrstelligen Millionenbereich", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Budgetverantwortung ist ausdrücklich nicht nachgewiesen." },
+      { "requirement": "Disziplinarische Führung internationaler Teams", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Projektkoordination ist keine disziplinarische Führung." },
+      { "requirement": "Programmmanagement-Zertifizierung ist erforderlich", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Eine entsprechende Zertifizierung wird nicht genannt." }
+    ],
+    "atsCoverage": { "matched": ["Transformation"], "missing": ["SAP S/4HANA", "Program Management", "Budgetverantwortung", "People Leadership", "PMP"] },
+    "interviewPreparation": [
+      "Keine Bewerbung empfehlen: Die Muss-Anforderungen werden überwiegend nicht erfüllt.",
+      "Als Lernhinweis erklären, welche Entwicklungsschritte langfristig für Programmleitung nötig wären."
+    ]
+  }
+]

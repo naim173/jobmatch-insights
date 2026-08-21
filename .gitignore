@@ -1,0 +1,90 @@
+# Abhängigkeiten und Paketmanager-Caches
+node_modules/
+.pnpm-store/
+.pnp/
+.pnp.*
+.yarn/cache/
+
+# Build-, Test- und Werkzeugausgaben
+.next/
+.vinext/
+dist/
+build/
+out/
+coverage/
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# Lokale Entwicklungs- und Hosting-Zustände
+.wrangler/
+.vercel/
+.openai/
+
+# Umgebungsvariablen und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*
+secrets*
+
+# Datenbanken, lokale Daten und Exporte
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+data/private/
+private/
+sensitive/
+uploads/
+exports/
+outputs/
+work/
+
+# Lebensläufe, Bewerbungsunterlagen und persönliche Dokumente
+resumes/
+cv/
+cvs/
+applications/
+bewerbungen/
+lebenslauf*
+resume*
+*.pdf
+*.doc
+*.docx
+*.odt
+
+# Private Screenshots und Anhänge
+/screenshots/
+/private-screenshots/
+/attachments/
+
+# Archive und Sicherungen
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.bak
+*.backup
+
+# Protokolle und lokale Betriebssystemdateien
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Editor-Einstellungen
+.idea/
+.vscode/
+*.swp
+*.swo

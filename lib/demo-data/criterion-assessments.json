@@ -1,0 +1,105 @@
+[
+  {
+    "jobId": "demo-job-1",
+    "categories": {
+      "roleFit": [
+        { "label": "Zielrolle Business Analyst", "status": "FULFILLED", "evidenceIds": ["evidence-1", "evidence-2"], "reason": "Anforderungs- und Prozessanalyse sind praktisch belegt.", "dataQuality": 1 }
+      ],
+      "skills": [
+        { "label": "Anforderungsanalyse", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "In mehreren Workshops eingesetzt.", "dataQuality": 1 },
+        { "label": "Prozessanalyse", "status": "FULFILLED", "evidenceIds": ["evidence-2"], "reason": "Ist-Prozesse wurden aufgenommen und verbessert.", "dataQuality": 1 },
+        { "label": "BPMN", "status": "FULFILLED", "evidenceIds": ["evidence-2"], "reason": "BPMN-Modellierung ist konkret genannt.", "dataQuality": 1 },
+        { "label": "Stakeholder-Management", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Fachbereich und IT wurden koordiniert.", "dataQuality": 1 },
+        { "label": "SQL", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-4"], "reason": "Nur Grundlagen, keine produktive Berufspraxis.", "dataQuality": 0.8 }
+      ],
+      "experience": [
+        { "label": "Berufliche Erfahrung in Digitalisierungsprojekten", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Zwei Jahre passende Projektpraxis sind belegt.", "dataQuality": 1 }
+      ],
+      "tools": [
+        { "label": "Analysewerkzeuge und SQL", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-4"], "reason": "Die geforderten Grundlagen sind vorhanden, aber nicht vertieft.", "dataQuality": 0.8 }
+      ],
+      "requirements": [
+        { "label": "Anforderungen in Workshops erheben", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Direkt durch Berufspraxis belegt.", "dataQuality": 1, "mustHave": true },
+        { "label": "Prozesse in BPMN modellieren", "status": "FULFILLED", "evidenceIds": ["evidence-2"], "reason": "Direkt durch Werkstudententätigkeit belegt.", "dataQuality": 1, "mustHave": true },
+        { "label": "Stakeholder koordinieren", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Fachbereich und IT wurden abgestimmt.", "dataQuality": 1 },
+        { "label": "Agile Arbeitsweisen", "status": "FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Iterative Projektarbeit und Aufgabenboard sind belegt.", "dataQuality": 0.9 },
+        { "label": "SQL-Grundkenntnisse", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-4"], "reason": "Grundlagen vorhanden, Praxisumfang begrenzt.", "dataQuality": 0.8 }
+      ],
+      "workModel": [
+        { "label": "Hybrides Arbeitsmodell", "status": "FULFILLED", "evidenceIds": [], "reason": "Das Stellenmodell entspricht der Profilpräferenz.", "dataQuality": 1 }
+      ]
+    }
+  },
+  {
+    "jobId": "demo-job-2",
+    "categories": {
+      "roleFit": [{ "label": "Zielrolle Junior IT-Projektmanager", "status": "FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Projektkoordination ist als Zielrolle und Praxis belegt.", "dataQuality": 0.9 }],
+      "skills": [
+        { "label": "Projektkoordination", "status": "FULFILLED", "evidenceIds": ["evidence-1", "evidence-3"], "reason": "In Beruf und Praxisprojekt eingesetzt.", "dataQuality": 1 },
+        { "label": "Stakeholder-Kommunikation", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Regelmäßige Abstimmung ist belegt.", "dataQuality": 1 },
+        { "label": "Statuskommunikation", "status": "FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Ergebnisse wurden strukturiert präsentiert.", "dataQuality": 0.9 },
+        { "label": "Strukturierte Arbeitsweise", "status": "FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Aufgabenboard und Teamkoordination sind belegt.", "dataQuality": 0.9 },
+        { "label": "Risikomanagement", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Projektsteuerung ist vorhanden, formales Risikomanagement nicht.", "dataQuality": 0.7 }
+      ],
+      "experience": [
+        { "label": "Projektpraxis", "status": "FULFILLED", "evidenceIds": ["evidence-1", "evidence-3"], "reason": "Mehrere passende Projekte sind belegt.", "dataQuality": 1 },
+        { "label": "Eigenständige Projektleitung", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Teamkoordination, aber keine vollständige Projektverantwortung.", "dataQuality": 0.8 },
+        { "label": "Budgetverantwortung", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Keine Budgetverantwortung im Profil belegt.", "dataQuality": 1 }
+      ],
+      "tools": [{ "label": "Jira", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Nur Grundlagen und allgemeine Board-Praxis.", "dataQuality": 0.8 }],
+      "requirements": [
+        { "label": "Arbeitspakete und Termine koordinieren", "status": "FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Direkt belegt.", "dataQuality": 1 },
+        { "label": "Statusberichte erstellen", "status": "FULFILLED", "evidenceIds": ["evidence-1", "evidence-3"], "reason": "Dokumentation und Präsentation sind vorhanden.", "dataQuality": 0.9 },
+        { "label": "Risiken steuern", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Nur indirekt aus Koordination ableitbar.", "dataQuality": 0.7 },
+        { "label": "Jira sicher anwenden", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Grundlagen statt sicherer Berufspraxis.", "dataQuality": 0.8 },
+        { "label": "Projektbudgets verantworten", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Kein Beleg vorhanden.", "dataQuality": 1 }
+      ],
+      "workModel": [{ "label": "Hybrides Arbeitsmodell", "status": "FULFILLED", "evidenceIds": [], "reason": "Entspricht der Profilpräferenz.", "dataQuality": 1 }]
+    }
+  },
+  {
+    "jobId": "demo-job-3",
+    "categories": {
+      "roleFit": [{ "label": "Zielrolle Requirements Engineer", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Die Zielrichtung passt, der technische Schwerpunkt nur teilweise.", "dataQuality": 0.8 }],
+      "skills": [
+        { "label": "Anforderungserhebung", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Direkt belegt.", "dataQuality": 1 },
+        { "label": "Technische Spezifikation", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Fachliche Anforderungen ja, technische Systemspezifikation nein.", "dataQuality": 0.8 },
+        { "label": "Moderation", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Moderation belegt, aber nicht im technischen Entwicklungsumfeld.", "dataQuality": 0.8 },
+        { "label": "UML", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Nicht im Profil enthalten.", "dataQuality": 1 }
+      ],
+      "experience": [{ "label": "Requirements Engineering für technische Systeme", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Übertragbare Anforderungspraxis, aber kein technisches Systemprojekt.", "dataQuality": 0.8 }],
+      "tools": [{ "label": "UML-Werkzeug", "status": "UNKNOWN", "evidenceIds": [], "reason": "Aus dem Profil nicht belastbar bewertbar.", "dataQuality": 0.3 }],
+      "requirements": [
+        { "label": "Systemanforderungen spezifizieren", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Fachliche Anforderungserhebung ist übertragbar.", "dataQuality": 0.8 },
+        { "label": "UML und formale Spezifikationen", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Nicht nachgewiesen.", "dataQuality": 1, "mustHave": true },
+        { "label": "Technisches Studium", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Wirtschaftsinformatik entspricht nicht den ausdrücklich genannten Fachrichtungen.", "dataQuality": 1, "mustHave": true },
+        { "label": "Test- und Freigabemanagement", "status": "UNKNOWN", "evidenceIds": [], "reason": "Keine belastbaren Angaben vorhanden.", "dataQuality": 0.3 },
+        { "label": "Moderations- und Abstimmungsfähigkeit", "status": "FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Direkt durch Workshops belegt.", "dataQuality": 1 }
+      ],
+      "workModel": [{ "label": "Vor-Ort-Arbeit", "status": "PARTIALLY_FULFILLED", "evidenceIds": [], "reason": "Möglich, entspricht aber nicht der Präferenz für hybrid oder remote.", "dataQuality": 1 }]
+    }
+  },
+  {
+    "jobId": "demo-job-4",
+    "categories": {
+      "roleFit": [{ "label": "Senior-Programmleitung", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Allgemeine Projektkoordination ist übertragbar, Seniorität und Programmumfang fehlen.", "dataQuality": 1 }],
+      "skills": [
+        { "label": "Transformationsverständnis", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-1"], "reason": "Digitalisierungsprojekte sind belegt.", "dataQuality": 0.9 },
+        { "label": "People Leadership", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Keine disziplinarische Führung vorhanden.", "dataQuality": 1 }
+      ],
+      "experience": [{ "label": "Acht Jahre Programmleitung", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Nur zwei Jahre Projektkoordination belegt.", "dataQuality": 1 }],
+      "tools": [
+        { "label": "SAP S/4HANA", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Nicht im Profil vorhanden.", "dataQuality": 1 },
+        { "label": "Programmmanagement-Werkzeuge", "status": "PARTIALLY_FULFILLED", "evidenceIds": ["evidence-3"], "reason": "Einfache Aufgabenboards, keine Programmsteuerung.", "dataQuality": 0.8 }
+      ],
+      "requirements": [
+        { "label": "Acht Jahre IT-Programmleitung", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Nicht erfüllt.", "dataQuality": 1, "mustHave": true },
+        { "label": "Produktive SAP-S/4HANA-Erfahrung", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Nicht vorhanden.", "dataQuality": 1, "mustHave": true },
+        { "label": "Millionenbudget verantworten", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Keine Budgetverantwortung vorhanden.", "dataQuality": 1, "mustHave": true },
+        { "label": "Internationale Teams disziplinarisch führen", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Keine Führungserfahrung vorhanden.", "dataQuality": 1, "mustHave": true },
+        { "label": "Programmmanagement-Zertifizierung", "status": "NOT_FULFILLED", "evidenceIds": [], "reason": "Keine Zertifizierung angegeben.", "dataQuality": 1, "mustHave": true }
+      ],
+      "workModel": [{ "label": "Vor-Ort-Arbeit", "status": "PARTIALLY_FULFILLED", "evidenceIds": [], "reason": "Machbar, aber außerhalb der Präferenz.", "dataQuality": 1 }]
+    }
+  }
+]

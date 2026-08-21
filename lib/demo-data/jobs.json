@@ -1,0 +1,86 @@
+[
+  {
+    "id": "demo-job-1",
+    "dataClassification": "FICTIONAL_DEMO_DATA",
+    "isFictional": true,
+    "title": "Business Analyst Digitale Prozesse (m/w/d)",
+    "company": "Nordstern Digitalwerke GmbH (fiktiv)",
+    "location": "Lindenhafen (fiktiv)",
+    "workModel": "HYBRID",
+    "employmentType": "FULL_TIME",
+    "source": "DEMO_FIXTURE",
+    "url": null,
+    "summary": "Analyse und Digitalisierung interner Serviceprozesse gemeinsam mit Fachbereichen und IT.",
+    "requirements": [
+      "Anforderungen in Workshops erheben und strukturieren",
+      "Geschäftsprozesse analysieren und in BPMN modellieren",
+      "Stakeholder aus Fachbereich und IT koordinieren",
+      "Erste Erfahrung mit agilen Arbeitsweisen",
+      "Grundkenntnisse in SQL sind von Vorteil"
+    ],
+    "atsKeywords": ["Business Analysis", "Anforderungsanalyse", "BPMN", "Stakeholder-Management", "Digitalisierung", "Agile Arbeitsweisen", "SQL"]
+  },
+  {
+    "id": "demo-job-2",
+    "dataClassification": "FICTIONAL_DEMO_DATA",
+    "isFictional": true,
+    "title": "Junior IT-Projektmanager (m/w/d)",
+    "company": "Signalwerk Solutions AG (fiktiv)",
+    "location": "Westhafen (fiktiv)",
+    "workModel": "HYBRID",
+    "employmentType": "FULL_TIME",
+    "source": "DEMO_FIXTURE",
+    "url": null,
+    "summary": "Koordination kleiner IT-Projekte von der Planung bis zum Rollout.",
+    "requirements": [
+      "Arbeitspakete, Termine und Risiken koordinieren",
+      "Statusberichte für Projektleitung und Stakeholder erstellen",
+      "Sicherer Umgang mit Jira",
+      "Erste Verantwortung für Projektbudgets",
+      "Kommunikationsstärke und strukturierte Arbeitsweise"
+    ],
+    "atsKeywords": ["IT-Projektmanagement", "Projektkoordination", "Risikomanagement", "Status Reporting", "Jira", "Budgetplanung"]
+  },
+  {
+    "id": "demo-job-3",
+    "dataClassification": "FICTIONAL_DEMO_DATA",
+    "isFictional": true,
+    "title": "Requirements Engineer Technische Systeme (m/w/d)",
+    "company": "Vectorhafen Systems GmbH (fiktiv)",
+    "location": "Bergtal (fiktiv)",
+    "workModel": "ONSITE",
+    "employmentType": "FULL_TIME",
+    "source": "DEMO_FIXTURE",
+    "url": null,
+    "summary": "Spezifikation von Anforderungen für vernetzte technische Systeme in enger Abstimmung mit Entwicklung und Test.",
+    "requirements": [
+      "Systemanforderungen erheben und spezifizieren",
+      "Erfahrung mit UML und formalen Spezifikationen",
+      "Technisches Studium in Elektrotechnik oder Systems Engineering",
+      "Kenntnisse im Test- und Freigabemanagement",
+      "Sehr gute Moderations- und Abstimmungsfähigkeiten"
+    ],
+    "atsKeywords": ["Requirements Engineering", "Systems Engineering", "UML", "Spezifikation", "Testmanagement", "Freigabemanagement"]
+  },
+  {
+    "id": "demo-job-4",
+    "dataClassification": "FICTIONAL_DEMO_DATA",
+    "isFictional": true,
+    "title": "Senior SAP Program Manager (m/w/d)",
+    "company": "Kronenwerk Enterprise SE (fiktiv)",
+    "location": "Sonnenfeld (fiktiv)",
+    "workModel": "ONSITE",
+    "employmentType": "FULL_TIME",
+    "source": "DEMO_FIXTURE",
+    "url": null,
+    "summary": "Leitung eines internationalen SAP-S/4HANA-Transformationsprogramms mit mehreren Teilprojekten.",
+    "requirements": [
+      "Mindestens acht Jahre Leitung komplexer IT-Programme",
+      "Mehrjährige produktive SAP-S/4HANA-Erfahrung",
+      "Verantwortung für Budgets im mehrstelligen Millionenbereich",
+      "Disziplinarische Führung internationaler Teams",
+      "Programmmanagement-Zertifizierung ist erforderlich"
+    ],
+    "atsKeywords": ["SAP S/4HANA", "Program Management", "Transformation", "Budgetverantwortung", "People Leadership", "PMP"]
+  }
+]
