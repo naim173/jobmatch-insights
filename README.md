@@ -1,6 +1,6 @@
-# Jobkompass – Explainable Job Matching Demo
+# JobMatch Insights – Explainable Job Matching Demo
 
-Der Jobkompass ist eine öffentliche Portfolio-Demo für nachvollziehbares
+JobMatch Insights ist eine öffentliche Portfolio-Demo für nachvollziehbares
 Job-Matching. Die Anwendung vergleicht ein fiktives Kandidatenprofil mit
 fiktiven Stellenanforderungen und zeigt nicht nur einen Score, sondern auch die
 Belege, Unsicherheiten und Lücken hinter der Bewertung.
@@ -22,7 +22,7 @@ Bewertung?**
 
 ## Lösung
 
-Der Jobkompass zerlegt die Passung in verständliche Kriterien. Jede positive
+JobMatch Insights zerlegt die Passung in verständliche Kriterien. Jede positive
 oder teilweise positive Bewertung benötigt einen Profilbeleg. Nicht belegte
 Anforderungen werden als Lücke oder als nicht zuverlässig bewertbar dargestellt.
 
@@ -106,14 +106,14 @@ erfüllt werden.
 
 ## Screenshots
 
-Die folgenden vier Screenshots werden nach dem abschließenden Datenschutzcheck
-unter `public/screenshots/` ergänzt:
+Die folgenden vier geprüften Screenshots zeigen die zentralen Ansichten der
+Portfolio-Demo:
 
 ### 1. Produktidee und Projektbeitrag
 
 ![Startbereich mit Produkterklärung und Projektbeitrag](public/screenshots/01-startbereich-projektbeitrag.png)
 
-Zeigt in einem Blick, was der Jobkompass macht, wie Score und Confidence
+Zeigt in einem Blick, was JobMatch Insights macht, wie Score und Confidence
 getrennt werden und worin der eigene Projektbeitrag bestand.
 
 ### 2. Jobübersicht und Teil-Scores
